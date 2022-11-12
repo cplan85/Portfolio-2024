@@ -1,0 +1,20 @@
+.services-social a, .social a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    margin-right:.5rem;
+    border-radius: 50%;
+    text-decoration: none !important; }
+    .services-social a > span, .social a > span {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      color: #bfc8d0;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+    .services-social a:hover, .social a:hover {
+      background: #fff; }
+      .services-social a:hover span, .social a:hover span {
+        color: #000000; }

@@ -1,0 +1,78 @@
+.site-footer {
+    padding: 7rem 0;
+    position: relative;
+    background: #c9dd67;
+    margin-top: 10rem; }
+    @media (max-width: 991.98px) {
+      .site-footer {
+        padding: 2rem 0; } }
+    .site-footer.slanted-footer:before {
+      content: "";
+      background: #c9dd67;
+      height: 200px;
+      -webkit-transform: skewY(-5deg);
+      -ms-transform: skewY(-5deg);
+      transform: skewY(-5deg);
+      position: absolute;
+      left: 0;
+      top: -100px;
+      right: 0;
+      z-index: -1; }
+    .site-footer h3 {
+      font-size: 1rem;
+      margin-bottom: 1.5rem;
+      color: #fff; }
+    .site-footer a {
+      color: #007bff; }
+      .site-footer a:hover {
+        color: #fff; }
+    .site-footer ul li {
+      margin-bottom: .5rem; }
+      .site-footer ul li a {
+        color: #000000; }
+        .site-footer ul li a:hover {
+          color: #fff; }
+    .site-footer .scroll-top {
+      position: absolute;
+      z-index: 5;
+      top: 0;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background: #000000;
+      left: 50%;
+      -webkit-transform: translate(-50%, -250%);
+      -ms-transform: translate(-50%, -250%);
+      transform: translate(-50%, -250%);
+      -webkit-box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.3); }
+      .site-footer .scroll-top > span {
+        position: absolute;
+        font-size: 2rem;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        color: #fff !important; }
+
+        .footer-social a, .social a {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            position: relative;
+            background: #000000;
+            border-radius: 50%;
+            text-decoration: none !important; }
+            .footer-social a > span, .social a > span {
+              position: absolute;
+              left: 50%;
+              top: 50%;
+              color: #fff;
+              -webkit-transform: translate(-50%, -50%);
+              -ms-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%); }
+            .footer-social a:hover, .social a:hover {
+              background: #fff; }
+              .footer-social a:hover span, .social a:hover span {
+                color: #000000; }
