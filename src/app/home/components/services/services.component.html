@@ -16,8 +16,6 @@
             </p>
             <!-- <span class="custom-icon"><span class="icon-line-mobile mr-3"></span></span> -->
             <div class="services-social">
-              <a href="#"><span class="icon-html5"></span></a>
-              <a href="#"><span class="icon-css3"></span></a>
               <a href="#"><span class="icon-instagram"></span></a>
               <a href="#"><span class="icon-linkedin"></span></a>
             </div>
@@ -31,9 +29,14 @@
             <h3>Frontend Engineering</h3>
             <p>I delight in the technical challenge of turning a beautiful UI design into working and functional code.</p>
             <div class="services-social">
-              <img [ngStyle]="{'fill': 'red'}"
-               src="../../../../assets/icons/angular-icon-1.svg">
               <img src="../../../../assets/icons/angular-icon-1.svg">
+              <img src="../../../../assets/icons/react.svg">
+              <img src="../../../../assets/icons/bootstrap-icon.svg">
+              <img src="../../../../assets/icons/material-icon.svg">
+              <img [src]="imgSrc"
+              (mouseover)="imgSrc = 'http://www.impresabaraldo.it/Blog/wp-content/uploads/2015/05/casa-ecologica-vicenza.jpg'"
+              (mouseout)="imgSrc = 'https://www.ediltecnico.it/wp-content/uploads/2017/06/casa-300x223.png'">
+              
             </div>
           </a>            
 
