@@ -1,10 +1,9 @@
-.services-social a, .social a {
+.services-social a, .services-social img, .social a {
     display: inline-block;
     width: 40px;
     height: 40px;
     position: relative;
     margin-right:.5rem;
-    border-radius: 50%;
     text-decoration: none !important; }
     .services-social a > span, .social a > span {
       position: absolute;
