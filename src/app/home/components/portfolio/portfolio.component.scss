@@ -38,6 +38,7 @@
       .item .item-wrap > span >div > a:hover {
         color:rgb(0, 0, 0);
         text-decoration: none;
+    
       }
     .item .item-wrap:hover:after {
       opacity: 1;
@@ -49,3 +50,35 @@
       -webkit-transform: translate(-50%, -50%) scale(1);
       -ms-transform: translate(-50%, -50%) scale(1);
       transform: translate(-50%, -50%) scale(1); }
+
+      .pills {
+        margin-left:1rem;
+      }
+
+      .link-button{
+        background:rgb(170, 163, 163);
+        border-radius:50%;
+        padding:.25rem;
+      }
+
+      .link-button:hover{
+        background: white;
+      }
+
+      .filters .btn {
+        border-color: transparent;
+        font-size: .8rem;
+        margin: 5px;
+        background: rgba(52, 58, 64, 0.05);
+        color: #343a40;
+        text-transform: uppercase; }
+        .filters .btn:hover {
+          border-color: transparent;
+          background: #c9dd67;
+          color: #fff; }
+        .filters .btn.active {
+          background: #c9dd67 !important;
+          color: #fff;
+          border-color: #c9dd67 !important;
+          -webkit-box-shadow: 0 4px 15px -3px rgba(148, 196, 19, 0.5) !important;
+          box-shadow: 0 4px 15px -3px rgba(4, 116, 54, 0.5) !important; }
