@@ -1,0 +1,20 @@
+.footer-social a, .social a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    background: #000000;
+    border-radius: 50%;
+    text-decoration: none !important; }
+    .footer-social a > span, .social a > span {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      color: #fff;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+    .footer-social a:hover, .social a:hover {
+      background: #c9dd67; }
+      .footer-social a:hover span, .social a:hover span {
+        color: #000000; }
