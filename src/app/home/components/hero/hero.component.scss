@@ -15,8 +15,11 @@
     .home-section a {
       font-size: 1.2rem;
       text-transform: none; }
-      .home-section a, .home-section a:hover {
+      .home-section a {
         color: #fff; }
+        .home-section a:hover {
+          color:#000;
+        }
     .home-section .btn {
       text-transform: uppercase;
       font-size: .9rem;

@@ -1,4 +1,4 @@
-<section class="site-section services-section bg-light block__62849" id="services-section">
+<section class="site-section services-section bg-light block__62849" id="skills-section">
     <div class="container">
       <div class="row mb-5">
         <div class="col-12 text-center" data-aos="fade">
@@ -9,7 +9,7 @@
       <div class="row">
         <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
 
-          <a href="service-single.html" class="block__16443 text-center d-block">
+          <a class="block__16443 text-center d-block">
             <span class="custom-icon mx-auto"><span class="icon-code d-block"></span></span>
             <h3>Web Design & Algorithms</h3>
             <p>I enjoy making responsive websites written with clean code principles in mind and following ECMA6 conventions.
@@ -18,7 +18,6 @@
             <div class="services-social">
               <img [src]="htmlSrc"
               data-toggle="tooltip" data-placement="top" title="HTML5"
-              data-animation="true"
               (mouseover)="htmlSrc = '../../../../assets/icons/html-icon_hover.svg'"
               (mouseout)="htmlSrc = '../../../../assets/icons/html-icon.svg'"
               >
@@ -27,28 +26,51 @@
               (mouseover)="cssSrc = '../../../../assets/icons/css-icon_hover.svg'"
               (mouseout)="cssSrc = '../../../../assets/icons/css-icon.svg'" >
               <img [src]="jsSrc"
-              data-toggle="tooltip" data-placement="top" title="Javascript"
+              data-toggle="tooltip" data-placement="top" title="JavaScript"
               data-animation="true"
               (mouseover)="jsSrc = '../../../../assets/icons/javascript-icon_hover.svg'"
               (mouseout)="jsSrc = '../../../../assets/icons/javascript-icon.svg'"
               >
-              <img src="../../../../assets/icons/typescript-icon.svg">
+              <img [src]="tsSrc"
+              data-toggle="tooltip" data-placement="top" title="typeScript"
+              (mouseover)="tsSrc = '../../../../assets/icons/typescript-icon_hover.svg'"
+              (mouseout)="tsSrc = '../../../../assets/icons/typescript-icon.svg'"
+              >
             </div>
           </a>
 
         </div>
         <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
           
-          <a href="service-single.html" class="block__16443 text-center d-block">
+          <a class="block__16443 text-center d-block">
             <span class="custom-icon mx-auto"><span class="icon-line-laptop d-block"></span></span>
             <h3>Frontend Engineering</h3>
             <p>I delight in the technical challenge of turning a beautiful UI design into working and functional code.</p>
             <div class="services-social">
-              <img src="../../../../assets/icons/angular-icon-1.svg">
-              <img src="../../../../assets/icons/react.svg">
-              <img src="../../../../assets/icons/bootstrap-icon.svg">
-              <img src="../../../../assets/icons/material-icon.svg">
-              <img src="../../../../assets/icons/sass-icon.svg">
+              <img [src]="ngSrc"
+              data-toggle="tooltip" data-placement="top" title="Angular"
+              (mouseover)="ngSrc = '../../../../assets/icons/angular-icon-1_hover.svg'"
+              (mouseout)="ngSrc = '../../../../assets/icons/angular-icon-1.svg'"
+              >
+              <img [src]="reactSrc"
+              data-toggle="tooltip" data-placement="top" title="React"
+              (mouseover)="reactSrc = '../../../../assets/icons/react_hover.svg'"
+              (mouseout)="reactSrc = '../../../../assets/icons/react.svg'"
+              >
+              <img [src]="bsSrc"
+              data-toggle="tooltip" data-placement="top" title="Bootstrap5"
+              (mouseover)="bsSrc = '../../../../assets/icons/bootstrap-icon_hover.svg'"
+              (mouseout)="bsSrc = '../../../../assets/icons/bootstrap-icon.svg'">
+              <img [src]="matSrc"
+              data-toggle="tooltip" data-placement="top" title="Material UI"
+              (mouseover)="matSrc = '../../../../assets/icons/material-icon_hover.svg'"
+              (mouseout)="matSrc = '../../../../assets/icons/material-icon.svg'"
+              >
+              <img [src]="sassSrc"
+              data-toggle="tooltip" data-placement="top" title="SASS"
+              (mouseover)="sassSrc = '../../../../assets/icons/sass-icon_hover.svg'"
+              (mouseout)="sassSrc = '../../../../assets/icons/sass-icon.svg'"
+              >
               <!-- <img [src]="imgSrc"
               (mouseover)="imgSrc = 'http://www.impresabaraldo.it/Blog/wp-content/uploads/2015/05/casa-ecologica-vicenza.jpg'"
               (mouseout)="imgSrc = 'https://www.ediltecnico.it/wp-content/uploads/2017/06/casa-300x223.png'"> -->
@@ -59,55 +81,93 @@
         </div>
         <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
           
-          <a href="service-single.html" class="block__16443 text-center d-block">
+          <a class="block__16443 text-center d-block">
             <span class="custom-icon mx-auto"><span class="icon-server d-block"></span></span>
             <h3>Backend Engineering</h3>
             <p>The front-end is only half the equation. I enjoy creating REST Apis and structuring the backend following design patterns.
             </p>
             <div class="services-social">
-              <img src="../../../../assets/icons/express-icon2.svg">
-              <img src="../../../../assets/icons/nodejs-icon.svg">
+              <img [src]="expressSrc"
+              data-toggle="tooltip" data-placement="top" title="Express"
+              (mouseover)="expressSrc = '../../../../assets/icons/express-icon2_hover.svg'"
+              (mouseout)="expressSrc = '../../../../assets/icons/express-icon2.svg'"
+              >
+              <img [src]="nodejsSrc"
+              data-toggle="tooltip" data-placement="top" title="Node.JS"
+              (mouseover)="nodejsSrc = '../../../../assets/icons/nodejs-icon_hover.svg'"
+              (mouseout)="nodejsSrc = '../../../../assets/icons/nodejs-icon.svg'"
+              >
             </div>
           </a>            
 
         </div>
         <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
           
-          <a href="service-single.html" class="block__16443 text-center d-block">
+          <a class="block__16443 text-center d-block">
             <span class="custom-icon mx-auto"><span class="icon-database d-block"></span></span>
             <h3>Databases</h3>
             <p>Good data storage relies on a robust database, and I can interface with relational and non-relational databases.</p>
             <div class="services-social">
-              <img data-toggle="tooltip" data-placement="top" title="MongoDB" src="../../../../assets/icons/mongodb-icon.svg">
-              <img src="../../../../assets/icons/postgresql-icon.svg">
-              <img src="../../../../assets/icons/bash-icon.svg">
+              <img data-toggle="tooltip" data-placement="top" title="MongoDB" 
+              [src]="mongodbSrc"
+              (mouseover)="mongodbSrc = '../../../../assets/icons/mongodb-icon_hover.svg'"
+              (mouseout)="mongodbSrc = '../../../../assets/icons/mongodb-icon.svg'"
+              >
+              <img 
+              data-toggle="tooltip" data-placement="top" title="PostGres QL" 
+              [src]="postgresSrc"
+              (mouseover)="postgresSrc = '../../../../assets/icons/postgresql-icon_hover.svg'"
+              (mouseout)="postgresSrc = '../../../../assets/icons/postgresql-icon.svg'"
+              >
+              <img 
+              data-toggle="tooltip" data-placement="top" title="Bash" 
+              [src]="bashSrc"
+              (mouseover)="bashSrc = '../../../../assets/icons/bash-icon_hover.svg'"
+              (mouseout)="bashSrc = '../../../../assets/icons/bash-icon.svg'"
+              >
             </div>
           </a>
 
         </div>
         <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
           
-          <a href="service-single.html" class="block__16443 text-center d-block">
+          <a class="block__16443 text-center d-block">
             <span class="custom-icon mx-auto"><span class="icon-line-tools d-block"></span></span>
             <h3>Visual Design</h3>
             <p>Borrowing from my experience in Architecture, I have an eye for detail and advanced proficiencies in graphics editing software.
             </p>
             <div class="services-social">
-              <img src="../../../../assets/icons/illustrator-icon.svg">
-              <img src="../../../../assets/icons/photoshop-icon.svg">
+              <img [src]="aiSrc"
+              data-toggle="tooltip" data-placement="top" title="Illustrator" 
+              (mouseover)="aiSrc = '../../../../assets/icons/illustrator-icon_hover.svg'"
+              (mouseout)="aiSrc = '../../../../assets/icons/illustrator-icon.svg'"
+              >
+              <img [src]="psSrc"
+              data-toggle="tooltip" data-placement="top" title="Photoshop" 
+              (mouseover)="psSrc = '../../../../assets/icons/photoshop-icon_hover.svg'"
+              (mouseout)="psSrc = '../../../../assets/icons/photoshop-icon.svg'"
+              >
             </div>
           </a>
 
         </div>
         <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
           
-          <a href="service-single.html" class="block__16443 text-center d-block">
+          <a class="block__16443 text-center d-block">
             <span class="custom-icon mx-auto"><span class="icon-playlist_add_check d-block"></span></span>
             <h3>Testing & Quality Assurance</h3>
             <p class="d-sm-block">I'm focused on creating robust testing environments and ensuring code passes tests during CI/CD</p>
             <div class="services-social">
-              <img src="../../../../assets/icons/jest-icon.svg">
-              <img src="../../../../assets/icons/karma-icon.svg">
+              <img [src]="jestSrc"
+              data-toggle="tooltip" data-placement="top" title="Jest" 
+              (mouseover)="jestSrc = '../../../../assets/icons/jest-icon_hover.svg'"
+              (mouseout)="jestSrc = '../../../../assets/icons/jest-icon.svg'"
+              >
+              <img [src]="karmaSrc"
+              data-toggle="tooltip" data-placement="top" title="Karma" 
+              (mouseover)="karmaSrc = '../../../../assets/icons/karma-icon_hover.svg'"
+              (mouseout)="karmaSrc = '../../../../assets/icons/karma-icon.svg'"
+              >
             </div>
           </a>
 
