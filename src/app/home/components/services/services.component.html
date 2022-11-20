@@ -2,7 +2,7 @@
     <div class="container">
       <div class="row mb-5">
         <div class="col-12 text-center" data-aos="fade">
-          <h3 class="section-title-sub text-primary">My Services</h3>
+          <h3 class="section-title-sub text-primary">Tech.</h3>
           <h2 class="section-title mb-3">Skills</h2>
         </div>
       </div>
@@ -16,9 +16,22 @@
             </p>
             <!-- <span class="custom-icon"><span class="icon-line-mobile mr-3"></span></span> -->
             <div class="services-social">
-              <img src="../../../../assets/icons/html-icon.svg">
-              <img src="../../../../assets/icons/css-icon.svg">
-              <img src="../../../../assets/icons/javascript-icon.svg">
+              <img [src]="htmlSrc"
+              data-toggle="tooltip" data-placement="top" title="HTML5"
+              data-animation="true"
+              (mouseover)="htmlSrc = '../../../../assets/icons/html-icon_hover.svg'"
+              (mouseout)="htmlSrc = '../../../../assets/icons/html-icon.svg'"
+              >
+              <img [src]="cssSrc"
+              data-toggle="tooltip" data-placement="top" title="CSS3"
+              (mouseover)="cssSrc = '../../../../assets/icons/css-icon_hover.svg'"
+              (mouseout)="cssSrc = '../../../../assets/icons/css-icon.svg'" >
+              <img [src]="jsSrc"
+              data-toggle="tooltip" data-placement="top" title="Javascript"
+              data-animation="true"
+              (mouseover)="jsSrc = '../../../../assets/icons/javascript-icon_hover.svg'"
+              (mouseout)="jsSrc = '../../../../assets/icons/javascript-icon.svg'"
+              >
               <img src="../../../../assets/icons/typescript-icon.svg">
             </div>
           </a>
