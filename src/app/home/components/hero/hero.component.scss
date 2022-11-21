@@ -18,7 +18,11 @@
       .home-section a {
         color: #fff; }
         .home-section a:hover {
-          color:#000;
+          color:rgb(255, 255, 255);
+        }
+
+        #cv-button:hover {
+          color:black;
         }
     .home-section .btn {
       text-transform: uppercase;

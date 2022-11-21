@@ -14,4 +14,12 @@ export class FooterComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  goToSection(str: string){
+    document.getElementById(str)!.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+      inline: "nearest"
+    });
+  }
+
 }
