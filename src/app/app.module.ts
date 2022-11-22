@@ -12,6 +12,7 @@ import { PortfolioComponent } from './home/components/portfolio/portfolio.compon
 import { BlogPostsComponent } from './home/components/blog-posts/blog-posts.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { BlogPostComponent } from './pages/blog-post/blog-post.component';
+import { TargetBlankDirective } from './directives/target-blank.directive';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { BlogPostComponent } from './pages/blog-post/blog-post.component';
     PortfolioComponent,
     BlogPostsComponent,
     FooterComponent,
-    BlogPostComponent
+    BlogPostComponent,
+    TargetBlankDirective
   ],
   imports: [
     BrowserModule,

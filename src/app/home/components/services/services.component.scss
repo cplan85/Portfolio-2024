@@ -16,4 +16,13 @@
     .services-social a:hover, .social a:hover {
       background: #fff; }
       .services-social a:hover span, .social a:hover span {
-        color: #000000; }
+        color: #000000; 
+      }
+      .services-social > img {
+        opacity: 0.7;
+        transition: .3s all ease;
+      }
+
+      .services-social > img:hover {
+        opacity: 1;
+      }
