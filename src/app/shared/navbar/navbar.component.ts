@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef, AfterViewInit } from '@angular/core';
 import { ViewportScroller } from '@angular/common';
 
 @Component({
@@ -6,11 +6,21 @@ import { ViewportScroller } from '@angular/common';
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.scss']
 })
-export class NavbarComponent implements OnInit {
+export class NavbarComponent implements AfterViewInit {
 
   constructor(private scroller: ViewportScroller) { }
 
-  ngOnInit(): void {
+  @ViewChild('homeButton') homeButton!: ElementRef;
+
+  clicked: boolean = false;
+  ngAfterViewInit(): void {
+    
+    let clicked = this.clicked;
+    let homeButton = this.homeButton;
+   // setTimeout(function(){ if(!clicked  ) { homeButton.nativeElement.click()}; }, 2000);
+    //if(!this.clicked) { this.homeButton.nativeElement.click()}
+    this.clicked = true;
+
   }
 
   goToSection(str: string){

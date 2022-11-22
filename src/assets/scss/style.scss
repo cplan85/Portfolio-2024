@@ -7,6 +7,9 @@
 @import "../bs4/scss/mixins";
 @import "site-navbar";
 
+html,body{
+    overflow-x: hidden;
+}
 
 body {
 	font-weight: 400;

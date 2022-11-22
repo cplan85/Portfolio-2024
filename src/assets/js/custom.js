@@ -201,6 +201,7 @@ jQuery(function($) {
   });
   SmoothScroll();
 
+
   var counterInit = function() {
 		if ( $('.section-counter').length > 0 ) {
 			$('.section-counter').waypoint( function( direction ) {
