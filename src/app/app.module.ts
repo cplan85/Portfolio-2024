@@ -13,6 +13,7 @@ import { BlogPostsComponent } from './home/components/blog-posts/blog-posts.comp
 import { FooterComponent } from './shared/footer/footer.component';
 import { BlogPostComponent } from './pages/blog-post/blog-post.component';
 import { TargetBlankDirective } from './directives/target-blank.directive';
+import { MbTerminalComponent } from './pages/mb-terminal/mb-terminal.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { TargetBlankDirective } from './directives/target-blank.directive';
     BlogPostsComponent,
     FooterComponent,
     BlogPostComponent,
-    TargetBlankDirective
+    TargetBlankDirective,
+    MbTerminalComponent
   ],
   imports: [
     BrowserModule,

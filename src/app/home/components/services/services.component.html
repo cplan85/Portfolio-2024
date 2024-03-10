@@ -57,6 +57,11 @@
               (mouseover)="reactSrc = './assets/icons/react_hover.svg'"
               (mouseout)="reactSrc = './assets/icons/react.svg'"
               >
+              <img [src]="jQuerySrc"
+              data-toggle="tooltip" data-placement="top" title="jQuery"
+              (mouseover)="jQuerySrc = './assets/icons/jQuery-icon_hover.svg'"
+              (mouseout)="jQuerySrc = './assets/icons/jQuery-icon.svg'"
+              >
               <img [src]="bsSrc"
               data-toggle="tooltip" data-placement="top" title="Bootstrap5"
               (mouseover)="bsSrc = './assets/icons/bootstrap-icon_hover.svg'"
@@ -87,6 +92,16 @@
             <p>The front-end is only half the equation. I enjoy creating REST Apis and structuring the backend following design patterns.
             </p>
             <div class="services-social">
+              <img [src]="aspnetSrc"
+              data-toggle="tooltip" data-placement="top" title="Asp.net"
+              (mouseover)="aspnetSrc = './assets/icons/aspnet-icon_hover.svg'"
+              (mouseout)="aspnetSrc = './assets/icons/aspnet-icon.svg'"
+              >
+              <img [src]="csharpSrc"
+              data-toggle="tooltip" data-placement="top" title="C#"
+              (mouseover)="csharpSrc = './assets/icons/csharp-icon_hover.svg'"
+              (mouseout)="csharpSrc = './assets/icons/csharp-icon.svg'"
+              >
               <img [src]="expressSrc"
               data-toggle="tooltip" data-placement="top" title="Express"
               (mouseover)="expressSrc = './assets/icons/express-icon2_hover.svg'"
@@ -108,6 +123,11 @@
             <h3>Databases</h3>
             <p>Good data storage relies on a robust database, and I can interface with relational and non-relational databases.</p>
             <div class="services-social">
+              <img data-toggle="tooltip" data-placement="top" title="Sql" 
+              [src]="sqlSrc"
+              (mouseover)="sqlSrc = './assets/icons/sql-icon_hover.svg'"
+              (mouseout)="sqlSrc = './assets/icons/sql-icon.svg'"
+              >
               <img data-toggle="tooltip" data-placement="top" title="MongoDB" 
               [src]="mongodbSrc"
               (mouseover)="mongodbSrc = './assets/icons/mongodb-icon_hover.svg'"

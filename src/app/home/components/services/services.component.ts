@@ -13,13 +13,17 @@ export class ServicesComponent implements OnInit {
 
   ngSrc: string='./assets/icons/angular-icon-1.svg';
   reactSrc: string='./assets/icons/react.svg';
+  jQuerySrc: string='./assets/icons/jQuery-icon.svg';
   bsSrc: string='./assets/icons/bootstrap-icon.svg';
   matSrc: string='./assets/icons/material-icon.svg';
   sassSrc: string='./assets/icons/sass-icon.svg';
 
+  aspnetSrc: string='./assets/icons/aspnet-icon.svg';
+  csharpSrc: string='./assets/icons/csharp-icon.svg';
   expressSrc: string='./assets/icons/express-icon2.svg';
   nodejsSrc: string='./assets/icons/nodejs-icon.svg';
   
+  sqlSrc: string='./assets/icons/sql-icon.svg';
   mongodbSrc: string='./assets/icons/mongodb-icon.svg';
   postgresSrc: string='./assets/icons/postgresql-icon.svg';
   bashSrc: string='./assets/icons/bash-icon.svg';
