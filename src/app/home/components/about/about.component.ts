@@ -9,13 +9,13 @@ export class AboutComponent implements OnInit {
 
   constructor() { }
 
-  profileSrc: string ='./assets/images/profile3b.jpg';
-  profileHoverSrc: string = './assets/images/profile3b_hover.jpg';
-  profileOutSrc: string = './assets/images/profile3b.jpg';
+  profileSrc: string ='./assets/images/profile4_hover.jpg';
+  profileHoverSrc: string = './assets/images/profile4.jpg';
+  profileOutSrc: string = './assets/images/profile4_hover.jpg';
 
-  hackathonSrc: string ='./assets/images/hackathon-1.jpg';
-  hackathonHoverSrc: string='./assets/images/hackathon-1_hover.jpg';
-  hackathonOutSrc: string ='./assets/images/hackathon-1.jpg';
+  hackathonSrc: string ='./assets/images/nyc_profile.jpg';
+  hackathonHoverSrc: string='./assets/images/nyc_profile_hover.jpg';
+  hackathonOutSrc: string ='./assets/images/nyc_profile.jpg';
   
 
   ngOnInit(): void {
