@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
 
+  workExperienceYears: number = 0 ;
+
   constructor() { }
 
   profileSrc: string ='./assets/images/profile4_hover.jpg';
@@ -19,6 +21,19 @@ export class AboutComponent implements OnInit {
   
 
   ngOnInit(): void {
+
+    this.workExperienceYears = this.calculateWorkExperienceYears();
+  }
+
+  calculateWorkExperienceYears(): number {
+    const startDate = new Date('2022-10-01');
+    const currentDate = new Date();
+    
+    const totalMonths = (currentDate.getFullYear() - startDate.getFullYear()) * 12
+      + currentDate.getMonth() - startDate.getMonth();
+
+    const years = totalMonths / 12;
+    return (Math.round(years * 10) / 10  ) + .2; // Round to one decimal place
   }
 
 }
