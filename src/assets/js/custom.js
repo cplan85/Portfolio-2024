@@ -121,7 +121,9 @@ jQuery(function($) {
 	    // filter items on button click
 	  $('#filters').on( 'click', 'button', function(e) {
 	  	e.preventDefault();
+		
 	    var filterValue = $(this).attr('data-filter');
+
 	    $container.isotope({ filter: filterValue });
 	    $('#filters button').removeClass('active');
 	    $(this).addClass('active');
