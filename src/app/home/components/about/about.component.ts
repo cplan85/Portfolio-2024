@@ -33,7 +33,7 @@ export class AboutComponent implements OnInit {
       + currentDate.getMonth() - startDate.getMonth();
 
     const years = totalMonths / 12;
-    return (Math.round(years * 10) / 10  ) + .2; // Round to one decimal place
+    return parseFloat((years).toFixed(1)); // Ensure the result is up to 2 decimal places
   }
 
 }
