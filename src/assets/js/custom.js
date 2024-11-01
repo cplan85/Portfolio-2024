@@ -232,3 +232,14 @@ jQuery(function($) {
 	counterInit();
   
 });
+
+function delay(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function executeDelayed() {
+    await delay(1000); // Wait for 2 seconds
+    $("#all_button").click();
+}
+
+executeDelayed();
