@@ -22,6 +22,7 @@ export class ServicesComponent implements OnInit {
   csharpSrc: string='./assets/icons/csharp-icon.svg';
   expressSrc: string='./assets/icons/express-icon2.svg';
   nodejsSrc: string='./assets/icons/nodejs-icon.svg';
+  socketIOSrc: string='./assets/icons/socket.io-icon.svg'
   
   sqlSrc: string='./assets/icons/sql-icon.svg';
   mongodbSrc: string='./assets/icons/mongodb-icon.svg';
@@ -33,6 +34,10 @@ export class ServicesComponent implements OnInit {
 
   jestSrc: string ='./assets/icons/jest-icon.svg';
   karmaSrc: string='./assets/icons/karma-icon.svg';
+  chaiSrc: string='./assets/icons/chai-icon.svg';
+  dockerSrc: string='./assets/icons/docker-icon.svg';
+
+  pythonSrc: string='./assets/icons/python-icon.svg'
 
   constructor() { }
 

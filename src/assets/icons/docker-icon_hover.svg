@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 26.5.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 2194 2500"
+   style="enable-background:new 0 0 2194 2500;"
+   xml:space="preserve"
+   sodipodi:docname="docker-icon_hover.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs4"><linearGradient
+     x1="137.5448"
+     y1="125.77162"
+     x2="137.5448"
+     y2="265.17056"
+     id="a"
+     gradientTransform="scale(0.93060585,1.0745688)"
+     gradientUnits="userSpaceOnUse"><stop
+       stop-color="#F7F6F3"
+       offset="0"
+       id="stop1"
+       style="stop-color:#f5f5f5;stop-opacity:1;" /><stop
+       stop-color="#FEF6D5"
+       offset="1"
+       id="stop2"
+       style="stop-color:#e9e9e9;stop-opacity:1;" /></linearGradient></defs><sodipodi:namedview
+   id="namedview4"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:zoom="0.21976879"
+   inkscape:cx="816.76748"
+   inkscape:cy="1107.9826"
+   inkscape:window-width="1920"
+   inkscape:window-height="991"
+   inkscape:window-x="-9"
+   inkscape:window-y="-9"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="g3" />
+<style
+   type="text/css"
+   id="style1">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#BFC8D0;}
+	.st2{fill:#F4F4F4;}
+</style>
+
+<g
+   id="g1"
+   transform="matrix(8.7357637,0,0,8.7357637,-20.929329,170.4033)"><path
+     d="m 91.505,27.803 c 60.964,-24.41 135.74,20.658 142.05,86.028 9.824,58.82 -38.995,118.593 -98.59,120.32 C 78.288,239.807 23.516,191.761 21.909,134.847 17.682,88.767 48.045,43.044 91.505,27.803 Z"
+     fill="#ffffff"
+     id="path2" /><g
+     id="g2"
+     transform="matrix(0.96461002,0,0,0.96461002,4.9362121,-19.074877)"><g
+       id="g5"
+       transform="matrix(1.1641746,0,0,1.1641746,279.74394,-16.858076)"><g
+         id="g3"
+         transform="matrix(0.43039749,0,0,0.43039749,-241.47798,30.323916)"><rect
+           width="512"
+           height="512"
+           rx="15.000001%"
+           fill="#ffffff"
+           id="rect1"
+           x="0"
+           y="0"
+           style="fill:#000000;fill-opacity:1" /><g
+           id="g4"><path
+             stroke="#066da5"
+             stroke-width="38"
+             d="m 296,226 h 42 m -92,0 h 42 m -91,0 h 42 m -91,0 h 41 m -91,0 h 42 m 8,-46 h 41 m 8,0 h 42 m 7,0 h 42 m -42,-46 h 42"
+             id="path1"
+             style="fill:#000000;fill-opacity:0;stroke:#f9f9f9;stroke-opacity:1" /><path
+             fill="#066da5"
+             d="m 472,228 c 0,0 -18,-17 -55,-11 -4,-29 -35,-46 -35,-46 0,0 -29,35 -8,74 -6,3 -16,7 -31,7 H 68 c -5,19 -5,145 133,145 99,0 173,-46 208,-130 52,4 63,-39 63,-39"
+             id="path2-28"
+             style="fill:#ffffff;fill-opacity:1" /></g></g></g></g></g></svg>
